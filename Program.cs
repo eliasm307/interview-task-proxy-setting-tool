@@ -413,15 +413,24 @@ namespace TallariumChallenges2020
         {
             string sInput;
             string sMessage;
+             
+            Console.WriteLine("'Automatically detect proxy settings' Tool");
+            Console.WriteLine("By Elias Mangoro\n");
+
+            //WinInet.h seems to only work reliably using x86 configurations so dont continue if it is x64 
+            if(System.Environment.Is64BitProcess)
+            {
+                Console.WriteLine("This program uses WinInet.h, which seems to only work reliably using x86 configurations.");
+                Console.WriteLine("This program is being run using an x64 configuration hence there might be issues.");
+                Console.WriteLine("Please try running it again using an x84 configuration");
+                return;
+            }
 
             //allocate required memory that will be reused
             AllocateMemory();
 
             //Read initial proxy setting 
             m_iLastProxySetting = GetProxySetting();
-
-            Console.WriteLine("'Automatically detect proxy settings' Tool");
-            Console.WriteLine("By Elias Mangoro");
 
             do
             {
