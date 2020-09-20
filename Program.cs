@@ -13,6 +13,9 @@ using System.Runtime.InteropServices;
  *  - c# proxy authentication using wininet StackOverflow post: https://stackoverflow.com/questions/43817351/c-sharp-proxy-authentication-using-wininet
  *  - Malcolm McCaffery ProxyUtils Github Repo: https://github.com/chentiangemalc/ProxyUtils
  * 
+ * 
+ * Requirements
+ * - Requires to be run using an x86 configuration 
  */
 
 namespace TallariumChallenges2020
@@ -417,8 +420,8 @@ namespace TallariumChallenges2020
             //Read initial proxy setting 
             m_iLastProxySetting = GetProxySetting();
 
-            Console.Write("'Automatically detect proxy settings' Tool");
-            Console.Write("By Elias Mangoro");
+            Console.WriteLine("'Automatically detect proxy settings' Tool");
+            Console.WriteLine("By Elias Mangoro");
 
             do
             {
