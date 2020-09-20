@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallariumChallenges2020", "TallariumChallenges2020.csproj", "{E973E238-563C-4488-B23D-E49C75CFE8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tallarium_ProxyTool", "Tallarium_ProxyTool.csproj", "{E973E238-563C-4488-B23D-E49C75CFE8B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tallarium_CertificateTool", "..\Tallarium_CertificateTool\Tallarium_CertificateTool.csproj", "{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,18 @@ Global
 		{E973E238-563C-4488-B23D-E49C75CFE8B9}.Release|x64.Build.0 = Release|x64
 		{E973E238-563C-4488-B23D-E49C75CFE8B9}.Release|x86.ActiveCfg = Release|x86
 		{E973E238-563C-4488-B23D-E49C75CFE8B9}.Release|x86.Build.0 = Release|x86
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|x64.Build.0 = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Debug|x86.Build.0 = Debug|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|x64.ActiveCfg = Release|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|x64.Build.0 = Release|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|x86.ActiveCfg = Release|Any CPU
+		{20CFA90D-E8F8-45C1-8DAA-0E23AD2B3EF2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
