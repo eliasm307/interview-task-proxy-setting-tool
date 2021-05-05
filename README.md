@@ -1,4 +1,4 @@
-# TallariumProxySettingTool
+Proxy Setting Tool
 
 Solution to a problem posed during a software developer interview, task as below:
 
